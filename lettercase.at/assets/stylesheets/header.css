@@ -1,0 +1,44 @@
+/*
+ * Header
+ * -------------------------------------------------- */
+ .navbar{
+   height:90px;
+   weight:100%;
+   margin-top: auto;
+   padding:15px;
+   display:flex;
+   flex-direction:row;
+   flex-wrap:nowrap;
+   align-items: center
+   position:fixed;
+ }
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:0;
+  align-items: center;
+}
+li {
+  float:left;
+  margin:15px;
+
+}
+
+
+li:hover {
+  color:#58ACFA;
+}
+
+li.active {
+  color:yellow;
+}
+
+
+
+}
+img {
+  width: 142px;
+  height: 36px;
+  margin-left: -15px;
+}
