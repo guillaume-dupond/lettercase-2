@@ -36,8 +36,8 @@ li:hover {
   color: #58ACFA;
 }
 
-li.active {
-  color: yellow;
+.active {
+  color: #58ACFA;
 }
 
 img {
