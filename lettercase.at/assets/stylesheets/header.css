@@ -4,7 +4,6 @@
 
 .navbar {
   height: 90px;
-  margin-bottom: 60px;
 }
 
 .navbar__link {
@@ -18,7 +17,7 @@
   padding-top: 5px;
 }
 
-ul {
+ul.links {
   height: 90px;
   list-style-type: none;
   margin: 0;
@@ -27,20 +26,21 @@ ul {
   display: flex;
 }
 
-li {
+ul.links li {
   height: 36px;
   align-self: center;
 }
 
-li:hover {
+ul.links li a:hover {
   color: #58ACFA;
+  text-decoration: none;
 }
 
 .active {
   color: #58ACFA;
 }
 
-img {
+.navbar__brand_image {
   width: 142px;
   height: 36px;
   margin-left: -15px;

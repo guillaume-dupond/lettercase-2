@@ -11,12 +11,38 @@ body {
 }
 
 img {
-  max-width: 100%; /* Prevent flex wrap rounding issue */
+  max-width: 100%;
+   /* Prevent flex wrap rounding issue */
+}
+.jumbotron{
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
-
+.jumbotron a {
+  display:inline-block;
+  width: 100%;
+}
 /* Map */
 
 .map {
   display: block;
+  margin-top: 60px;
+}
+
+.teaser a img{
+  margin-bottom: 40px;
+}
+
+h1{
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.typefaceheading{
+  margin-top: 0;
+}
+.typeface1_2{
+  margin-bottom: 60px;
+
 }

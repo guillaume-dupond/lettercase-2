@@ -24,6 +24,7 @@ a:hover {
   text-decoration: underline;
 }
 
+
 h1,
 h2 {
   font-family: "ArbutusSlab", Georgia, serif;
@@ -47,5 +48,19 @@ h2 {
   font-size: 20px;
   line-height: 26px;
   font-weight: 400;
-  3
+  color:#58ACFA;
+}
+
+a.teaserlink:hover{
+  text-decoration: none;
+}
+
+ul.typeface-details{
+    padding-left: 0;
+    font-size: 12px;
+    line-height: 20px;
+    list-style-type: none;
+}
+.typeface-details li{
+  margin-bottom: 4px;
 }

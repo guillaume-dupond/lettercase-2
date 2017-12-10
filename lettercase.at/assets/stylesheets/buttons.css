@@ -1,3 +1,11 @@
 /*
  * Buttons
  * -------------------------------------------------- */
+.btn-lg {
+  font-size: 18px;
+  line-height: 24px;
+  border-radius: 6px;
+  min-width: 131px;
+  color: white;
+  background-color: #58ACFA;
+}
