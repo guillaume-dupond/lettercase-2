@@ -6,21 +6,23 @@
   width: 970px;
   padding: 0 15px;
   margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .row {
- padding: 0 0px;
- margin: 0 -50px;
- flex-direction: row;
+ padding: 0;
+ margin: 0;
+ display: felx;
  flex-wrap: wrap;
 }
 
 .col-1, .col-2, .col-3,
 .col-4, .col-5, .col-6,
 .col-7, .col-8, .col-9,
-.col-10, .col-11, .col-12, {
-
+.col-10, .col-11, .col-12 {
  background-color: #940;
+ background-clip: content-box;
  padding: 0 15px;
 }
 
